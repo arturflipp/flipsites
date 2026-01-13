@@ -71,7 +71,7 @@ export const Hero = () => {
                 </motion.div>
 
                 {/* 3D Visual - Visible on Mobile too now */}
-                <div className="relative h-[400px] lg:h-[600px] flex items-center justify-center perspective-[2000px] w-full mt-8 lg:mt-0">
+                <div className="hidden lg:flex relative h-[600px] items-center justify-center perspective-[2000px] w-full mt-8 lg:mt-0">
                     <motion.div style={{ opacity, y: y1 }} className="relative w-full h-full flex items-center justify-center pointer-events-none">
                         {/* Back Card (Phone) */}
                         <motion.div
